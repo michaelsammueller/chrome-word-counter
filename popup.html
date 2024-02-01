@@ -4,13 +4,18 @@
     <title>Word Counter</title>
     <style>
         body {
-            width: 200px;
+            width: 300px;
             padding: 10px;
+        }
+        #wordCount {
+            margin-top: 10px;
         }
     </style>
 </head>
 <body>
-    <div id="wordCount">No words selected</div>
+    <textarea id="textInput" placeholder="Paste your text here..."></textarea>
+    <button id="countButton">Count Words</button>
+    <div id="wordCount">Word Count: 0</div>
     <script src="popup.js"></script>
 </body>
 </html>
